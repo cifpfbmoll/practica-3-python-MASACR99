@@ -1,0 +1,6 @@
+grade1,grade2,grade3 = input("Input 3 grades").split()
+grade1 = float(grade1)
+grade2 = float(grade2)
+grade3 = float(grade3)
+mean = ((grade1+grade2+grade3)/3)
+print("Average of grades = " + str(mean))
